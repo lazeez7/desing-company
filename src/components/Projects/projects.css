@@ -1,0 +1,127 @@
+.project__logo{
+    width: 570px;
+    height: 180px;
+    border-radius: 20px 20px 0px 0px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    background-color: #fff;
+
+    p{
+        padding: 0px 20px;
+        max-width: 490px;
+        padding-bottom: 20px;
+    }
+
+    img{
+        padding: 0px 20px;
+    }
+
+    @media (max-width:375px) {
+
+        height: auto;
+        max-width: 300px;
+
+        p{
+            padding: 0px 20px  20px 20px ;
+            width: 100%;
+            max-width: 300px;
+        }
+    }
+}
+
+.results h3{
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.results__rek{
+    max-width: 185px;
+}
+
+.result{
+    margin-top: 20px;
+}
+
+.project__results{
+    margin-top: 20px;
+    max-width: 570px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.results__rek p{
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.results{
+    background-color: #F3F1FE;
+    max-width: 570px;
+    width: 100%;
+    padding: 8px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.system{
+    max-width: 570px;
+    height: auto;
+    padding-bottom: 10px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+
+    h3{
+        padding: 20px;
+    }
+
+    img{
+        padding: 0px 20px;
+        
+        @media (max-width:375px) {
+            width: 70%;
+        }
+    }
+}
+
+.results__flex{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+
+@media(max-width:375px) {
+    .project__wrap{
+        max-width: 300px;
+        margin: 0 auto;
+
+    }
+
+    .project__wrap h1{
+        padding: 0px 30px;
+    }
+
+    .results__flex{
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 15px;
+        max-width: 50px;
+    }
+
+    .results__block{
+    }
+}
+
