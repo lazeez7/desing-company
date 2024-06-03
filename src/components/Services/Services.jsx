@@ -87,7 +87,7 @@ const Services = () => {
             <div className="service__block">
               <div className="service__card">
                 <p className="design">
-                  дизайн вывесок <br /> и рекламы
+                  дизайн вывесок  и рекламы
                 </p>
                 <div className="service__content">
                   <span>
@@ -117,7 +117,7 @@ const Services = () => {
             <div className="service__block">
               <div className="service__card">
                 <p>
-                  Digital <br /> Дизайн
+                  Digital  Дизайн
                 </p>
                 <div className="service__content">
                   <span>
@@ -127,7 +127,7 @@ const Services = () => {
 
                   <span>
                     <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Креативы для <br /> рекламы</h5>
+                    <h5 className="blok">Креативы для рекламы</h5>
                   </span>
 
                   <span>

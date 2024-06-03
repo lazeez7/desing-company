@@ -147,6 +147,7 @@
 
      p{
       font-size: 10px;
+      
      }
   }
 
@@ -157,7 +158,7 @@
   }
 
   .service__card p{
-    max-width: 190px;
+  
     height: 50px;
     background-color: #77b2d3;
     
@@ -169,6 +170,8 @@
     width: 200px;
   }
 
+
+  
 
 
  
