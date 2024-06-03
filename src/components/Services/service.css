@@ -163,13 +163,15 @@
   
     height: 50px;
     background-color: #77b2d3;
-    max-width: 200px;
+    max-width: 300px;
     height: max-content;
-    padding: 10px 0px;
+    padding: 10px 10px;
     overflow: hidden;
    color: #fff;
     margin: 0 auto;
   }
+
+  
 
   .service__card{
     width: 200px;
