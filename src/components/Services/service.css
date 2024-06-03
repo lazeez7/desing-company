@@ -136,16 +136,22 @@
   }
 
   .service__content {
-    max-width: max-content;
+    max-width: 150px;
+    min-height: max-content;
+    padding: 10px 20px 0px 0px;
     margin: 0 auto;
      h5{
       margin: 0 auto;
       
      }
+
+     p{
+      font-size: 10px;
+     }
   }
 
   .service__card{
-   max-width: max-content;
+   max-width: 300px;
    overflow: hidden;
   
   }

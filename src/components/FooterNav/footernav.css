@@ -10,9 +10,26 @@
   flex-wrap: wrap;
   gap: 20px;
 
-  @media (max-width:375px) {
-    gap: 10px;
-  }
+}
+@media(max-width:375px) {
+ .fnav__block{
+  gap: 10px;
+  font-size: 10px;
+ }
+
+ .fnav__logo img{
+  max-width: 280px;
+ }
+
+.fnav__logo button{
+  max-width: 205px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(115.11deg, #f32c6d 10.12%, #cb1d95 100.01%);
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
 }
 
 .fnav__logo {
