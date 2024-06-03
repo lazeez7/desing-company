@@ -85,13 +85,15 @@
     display: grid;
     grid-template-columns: 1fr;
     
-    input{
-      border-radius: 10px;
-    width: 270px;
-    border: none;
-    height: 50px;
-    padding: 0px 20px;
-    }
+  
+  }
+
+  .order__inputs input{
+    border-radius: 10px;
+  width: 270px;
+  border: none;
+  height: 50px;
+  padding: 0px 20px;
   }
 
   .order__coment textarea{
