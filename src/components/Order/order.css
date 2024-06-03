@@ -84,6 +84,11 @@
   .order__inputs{
     display: grid;
     grid-template-columns: 1fr;
+    border-radius: 10px;
+    width: 270px;
+    border: none;
+    height: 50px;
+    padding: 0px 20px;
   }
 
   .order__coment textarea{
@@ -111,7 +116,10 @@
     display: none;
   }
 
-
+  .results__block{
+    max-width: 300px;
+   margin: 0 auto; 
+  }
 
 }
 
