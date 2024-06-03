@@ -104,7 +104,7 @@
     display: flex;
     justify-content: space-evenly;
     gap: 25px;
-    max-width: 300px;
+    max-width: 150px;
     margin: 0 auto;
 }
 
