@@ -127,7 +127,7 @@ const Services = () => {
 
                   <span>
                     <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Креативы для рекламы</h5>
+                    <h5 className="blok">Креативы для <br /> рекламы</h5>
                   </span>
 
                   <span>
