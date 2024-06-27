@@ -1,190 +1,96 @@
 import React from "react";
-import "./service.css";
+import s from "./services.module.css";
 
 const Services = () => {
   return (
     <>
-      <div className="service__wrap">
+      <section className={s.services}>
+        <h2 className={s.main_title}>Наши услуги</h2>
         <div className="container">
-          <h1>Наши услуги</h1>
-          <div className="services__cards">
-            <div className="service__block">
-              <div className="service__card">
-                <p>
-                  Рекламные <br /> материалы
-                </p>
-                <div className="service__content">
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Верстка макетов</h5>
-                  </span>
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Флаеры</h5>
-                  </span>
-
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Визитки</h5>
-                  </span>
-
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Брошюры</h5>
-                  </span>
-
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Листовки</h5>
-                  </span>
+          <div className={s.wrap}>
+              <div className={s.card}>
+                <div className={s.box}>
+                <h4>Рекламные материалы</h4>
+                <ul>
+                  <li>Верстка макетов</li>
+                  <li>Флаеры</li>
+                  <li>Визитки</li>
+                  <li>Брошюры</li>
+                  <li>Листовки</li>
+                </ul>
+                <h3> от <span>2000 руб.</span></h3>
                 </div>
-                <div className="price">
-                  <h5>от</h5>
-                  <h3> 2000 руб.</h3>
-                </div>
-              </div>
-              <div className="btn1">
+                
                 <button>Подробнее</button>
+
               </div>
-            </div>
 
-            <div className="service__block">
-              <div className="service__card">
-                <p>
-                  бренд <br /> дизайн
-                </p>
-                <div className="service__content">
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Логотипы</h5>
-                  </span>
-
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Айдентика</h5>
-                  </span>
-
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Концепция бренда</h5>
-                  </span>
-
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Гайдлайн</h5>
-                  </span>
+              <div className={s.card}>
+                <div className={s.box}>
+                <h4> бренд <br />дизайн</h4>
+                <ul>
+                  <li>Логотипы</li>
+                  <li>Фирменный стиль</li>
+                  <li>Айдентика</li>
+                  <li>Концепция бренда</li>
+                  <li>Гайдлайн</li>
+                </ul>
+                <h3> от <span>3000 руб.</span></h3>
                 </div>
-                <div className="price">
-                  <h5>от</h5>
-                  <h3> 3000 руб.</h3>
-                </div>
-              </div>
-              <div className="btn1">
+                
                 <button>Подробнее</button>
+
               </div>
-            </div>
 
-            <div className="service__block">
-              <div className="service__card">
-                <p className="design">
-                  дизайн вывесок  и рекламы
-                </p>
-                <div className="service__content">
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Дизайн вывесок</h5>
-                  </span>
-
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Фотопривязки</h5>
-                  </span>
-
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Фотопривязки</h5>
-                  </span>
+              <div className={s.card}>
+                <div className={s.box}>
+                <h4>дизайн вывесок<br /> и рекламы</h4>
+                <ul>
+                  <li>Дизайн вывесок</li>
+                  <li>Фотопривязки</li>
+                  <li>Роллапы</li>
+                </ul>
+                <h3> от <span> 3000 руб.</span></h3>
                 </div>
-                <div className="price">
-                  <h5>от</h5>
-                  <h3> 3000 руб.</h3>
-                </div>
-              </div>
-              <div className="btn1">
+                
                 <button>Подробнее</button>
-              </div>
-            </div>
-            <div className="service__block">
-              <div className="service__card">
-                <p>
-                  Digital  Дизайн
-                </p>
-                <div className="service__content">
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">WEB дизайн</h5>
-                  </span>
 
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Креативы для рекламы</h5>
-                  </span>
-
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Презентации</h5>
-                  </span>
-                </div>
-                <div className="price">
-                  <h5>от</h5>
-                  <h3> 5000 руб.</h3>
-                </div>
               </div>
-              <div className="btn1">
+
+              <div className={s.card}>
+                <div className={s.box}>
+                <h4>Digital <br /> Дизайн</h4>
+                <ul>
+                  <li>WEB дизайн</li>
+                  <li>Креативы для рекламы</li>
+                  <li>Презентации</li>
+                </ul>
+                <h3> от <span>5000 руб.</span></h3>
+                </div>
+                
                 <button>Подробнее</button>
+
               </div>
-            </div>
-            <div className="service__block">
-              <div className="service__card">
-                <p className="smm">Smm</p>
-                <div className="service__content">
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Stories Instagram</h5>
-                  </span>
 
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Post instagram</h5>
-                  </span>
-
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Оформление аккаунта</h5>
-                  </span>
-
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Рекламные креативы</h5>
-                  </span>
-
-                  <span>
-                    <img src="./Vector (1).png" alt="" />
-                    <h5 className="blok">Оформление группы</h5>
-                  </span>
+              <div className={s.card}>
+                <div className={s.box}>
+                <h4>Smm</h4>
+                <ul>
+                  <li>Stories Instagram</li>
+                  <li>Post instagram</li>
+                  <li>Оформление аккаунта</li>
+                  <li>Рекламные креативы</li>
+                  <li>Оформление группы</li>
+                </ul>
+                <h3> от <span>1500 руб.</span></h3>
                 </div>
-                <div className="price">
-                  <h5>от</h5>
-                  <h3> 1500 руб.</h3>
-                </div>
-              </div>
-              <div className="btn1">
+                
                 <button>Подробнее</button>
+
               </div>
-            </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
