@@ -42,18 +42,35 @@ a {
   font-size: 16px;
 }
 
-@media (max-width: 375px) {
-  .header__wrap img {
-    width: 180px;
-  }
 
-  .header__wrap a {
+.mobile{
+  display: none;
+}
+
+@media (max-width: 1000px){
+  .header__nav, .header__button{
     display: none;
+  }   
+  .mobile{
+    display: block;
   }
+  .nav_mob h2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 99;
+  }
+  .mobile_links{
+    padding-top: 150px  ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}
 
-  .header__wrap button {
-    font-size: 12px;
-    width: 150px;
-
+@media (max-width: 448px) {
+  .logo img{
+    width: 200px;
   }
 }
